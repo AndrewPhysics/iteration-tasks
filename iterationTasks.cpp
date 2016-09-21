@@ -1,3 +1,5 @@
+//ebbe a fájlba lehetne komolyabb algóritmusokat beletenni
+
 #include "iterationTasks.h"
 #include <iostream>
 #include <math.h>
@@ -8,7 +10,7 @@ iterationTasks::~iterationTasks(){}
 int iterationTasks::faktorialFinder(int x){
 	int result = 0;
 	if (x == 1){result = 1;}
-	else { result = faktorialFinder(x - 1)*x;}
+	else { result = faktorialFinder(x - 1)*x; }
 	return result;
 }
 void iterationTasks::_1_Showfaktorial() {
@@ -191,6 +193,7 @@ void iterationTasks::_10_arithmeticSeries() {
 	for (int i = 0; i < size; i++) {
 		cout << "The elements of aritmetic series: " << p[i] << '\t' <<" ."<< endl;
 	}
+	delete []p;
 }
 //----------------------------------------------------------- 10. task-------------
 void iterationTasks::_11_geometricSeries() {

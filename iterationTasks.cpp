@@ -1,5 +1,3 @@
-//ebbe a fájlba lehetne komolyabb algóritmusokat beletenni
-
 #include "iterationTasks.h"
 #include <iostream>
 #include <math.h>
